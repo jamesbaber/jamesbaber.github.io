@@ -1,0 +1,15 @@
+digger.baber@talktalk.net-#*#-Stopmotionheaven-#*#-I am currently tidying up the code, adding comments and adding new features like on-site account creation.
+digger.baber@talktalk.net-#*#-Stopmotionheaven-#*#-We now have secure passwords!<Br />Create your account now!
+digger.baber@talktalk.net-#*#-Stopmotionheaven-#*#-I wonder if i've fixed the newline bugs?
+digger.baber@talktalk.net-#*#-Stopmotionheaven-#*#-Yes Ive fixed them!<br />We can now say things like:<br />Line 3<br />Line 4<br />Col Hey!
+digger.baber@talktalk.net-#*#-Stopmotionheaven-#*#-I will be adding better formatting for the tables
+digger.baber@talktalk.net-#*#-Stopmotionheaven-#*#-Well its better, but not perfect
+digger.baber@talktalk.net-#*#-Stopmotionheaven-#*#-Now you can't visit threads that don't exist.<br />Example: <A href="View Thread.php?thread="Non%20Existant%20Thread">View Thread.php?thread="Non%20Existant%20Thread</A> Will take you straight back to the main page.
+digger.baber@talktalk.net-#*#-Stopmotionheaven-#*#-ALl new users will have to use a valid email!
+digger.baber@talktalk.net-#*#-Stopmotionheaven-#*#-Due to maintenance the login system may be down from 12:00 to 09:00 AM.<Br />In this time <B>DO NOT</B> create a new account, it will be purged!<br />I am sorry for the issues this could cause.<br />It is part of the new login validation system.
+digger.baber@talktalk.net-#*#-Stopmotionheaven-#*#-It is all ok!
+digger.baber@talktalk.net-#*#-Stopmotionheaven-#*#-I've fixed the slight issues that occured just before I went back to school. *facepalm*<br /><br />It was working all holiday because I did most of the work on the first day.<br />At least now everything that is there works.<br /><br />My next job will be to make the 'account confirmation' email look nicer and to add formatting to the thread list.
+digger.baber@talktalk.net-#*#-Stopmotionheaven-#*#-Soon I will be back to working on the TCP Chat Server.<br />Its login system will be merged with the forum login system to provide easy account control and apply the latest security enhancements.
+digger.baber@talktalk.net-#*#-Stopmotionheaven-#*#-Hello World!!!
+digger@mailinator.com-#*#-Stopmotionheaven-#*#-I am currently re making the website
+digger.baber@talktalk.net-#*#-Stopmotionheaven-#*#-I am currently re making the website
