@@ -122,25 +122,41 @@
     <!-- Page Content -->
 
 	<a  name="portfolio"></a>
-    <div class="content-section-a">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Technical Theatre<br></h2>
-                    <p class="lead">I've worked on numerous theatrical events - musicals, concerts, discos, presentations, and dance shows.
-                      Although I've always focussed on VFX, I greatly enjoy stepping in to mix sound, improvise lighting, build set and rig equipment.
-                    Between cues, I always find time to document the event, for publicity and nostalgia alike.
-                  Visit my <a href="https://www.linkedin.com/in/thejamesbaber">LinkedIn profile</a> to see the full list of projects.</p><br /><br />
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/roxie.png" alt="Theatre">
-                </div>
-            </div>
 
-        </div>
         <!-- /.container -->
+
+		<div class="content-section-a">
+
+	        <div class="container">
+
+	            <div class="row">
+	                <div class="col-lg-5 col-sm-6">
+	                    <hr class="section-heading-spacer">
+	                    <div class="clearfix"></div>
+	                    <h2 class="section-heading">Electronics Design and Prototyping<br></h2>
+	                    <p class="lead">
+
+	                      <br />
+						 Four channel PWM LED Dimmer for short runs of 12 V white or RGBW LED strip.
+						  <ul>
+							  <li>Powered by any standard 802.3af/at/bt PSE (switch or injector).</li>
+							  <li>Art-Net V1 broadcast compatible.</li>
+							  <li>7-segment display for addressing.</li>
+							  <li>10Base-T Ethernet interface with link and traffic status indicators.</li>
+							  <li>Hand assembled.</li>
+						  </ul>
+
+	                       </p>
+	                </div>
+	                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+	                    <img class="img-responsive" src="img/poe2.png" alt="Electronics">
+	                </div>
+	            </div>
+
+	        </div>
+	        <!-- /.container -->
+
+	    </div>
 
         <!-- /.content-section-a -->
 
@@ -152,12 +168,18 @@
                     <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                         <hr class="section-heading-spacer">
                         <div class="clearfix"></div>
-                        <h2 class="section-heading">DMX Controller<br></h2>
-                        <p class="lead">A portable DMX lighting controller with OLED display and minimalist control interface. Powered by a rechargeable lithium-polymer battery, the device can operate for 3 hours driving a DMX universe.<br />At its core is an Atmega328P-AU microcontroller, which manages the user interface and outputs DMX data. The data is then coupled through to a galvanically isolated RS-485 transceiver module with additional ESD protection.</p>
-
+                        <h2 class="section-heading">DMX Tester<br></h2>
+                        <p class="lead">A portable DMX lighting controller with OLED display and minimalist control interface.
+							<ul>
+								<li>Internal LiPo battery for up to 3 hours runtime.</li>
+								<li>ATmega328p microcontroller and 128x64 OLED display.</li>
+								<li>Galvanically isolated RS485 transmitter.</li>
+								<li>Single encoder knob for control of address and value.</li>
+								<li>Blackout toggle for conventional fixture.</li>
+								<li>Discreet ESD protection.</li>
                     </div>
                     <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                        <img class="img-responsive" src="img/dmx.JPG" alt="DMX">
+                        <img class="img-responsive" src="img/dmxtester.jpg" alt="DMX">
                     </div>
                 </div>
 
@@ -168,34 +190,25 @@
 
     <!-- /.content-section-b -->
 
-    <div class="content-section-a">
 
+	<div class="content-section-a">
         <div class="container">
-
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Electronics Design and Prototyping<br></h2>
-                    <p class="lead">
-
-                      <br />
-
-                      The image shows a compact LED dimmer which can drive up to 36 W of LEDs from an 802.3bt PoE PSE. It can be controlled using ArtNet v1 and configured using a web interface. It mounts to DIN rail and has an LED display for rapid DMX addressing.
-The design incorporates two switch-mode power supplies and a 10Base-T ethernet interface.
-All prototypes are hand soldered using an iron and hot air.
-
-                       </p>
+                    <h2 class="section-heading">Technical Theatre<br></h2>
+                    <p class="lead">I've worked on a number of theatrical events - musicals, concerts, discos, presentations, and dance shows.
+                    Although I've always focussed on VFX, I enjoy stepping in to mix sound, improvise lighting, build set and rig equipment.
+                    Between cues, I always find time to document the event, for publicity and nostalgia alike.
+                  Visit my <a href="https://www.linkedin.com/in/thejamesbaber">LinkedIn profile</a> to see the full list of projects.</p><br /><br />
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/poe2.png" alt="Electronics">
+                    <img class="img-responsive" src="img/roxie.png" alt="Theatre">
                 </div>
             </div>
 
         </div>
-        <!-- /.container -->
-
-    </div>
 
     <!-- /.content-section-a -->
 
@@ -208,7 +221,9 @@ All prototypes are hand soldered using an iron and hot air.
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Cue Lights<br></h2>
-                    <p class="lead">Presenting the fifth version of my budget cue light systems; using an ESP32, this portable device acts as a cue controller by creating its own wireless network. Crew can use any devices such as phones, tablets or laptops to view cues in outstation or overview mode.</p>
+                    <p class="lead">
+						This portable cue-light controller is based on an ESP32, allowing it to create a wireless network for crew to connect to without existing network infrastructure
+						Cues can view viewed from devices such as phones, tablets and laptops in outstation or overview mode.</p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
                     <img class="img-responsive" src="img/clsv5.JPG" alt="CLS">
