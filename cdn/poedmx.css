@@ -15,3 +15,11 @@ input, select {
 input[type=submit] {
     background-color: #3498db;
 }
+
+body {
+    background: url(https://jamesbaber.co.uk/cdn/poedmxbg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
