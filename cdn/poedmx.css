@@ -23,3 +23,10 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
+
+.center {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+}
